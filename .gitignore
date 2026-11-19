@@ -1,0 +1,43 @@
+# --- Eletrónica (Altium Designer) ---
+History/
+__Previews/
+Project Logs for */
+*.SchDocPreview
+*.PcbDocPreview
+*.Dat
+*.log
+*.htm
+*.html
+~$*
+
+# --- Aeroestruturas & Propulsão (SolidWorks / CAD / Simulação) ---
+~$*.SLDPRT
+~$*.SLDASM
+~$*.SLDDRW
+*.swp
+*.bak
+*.lck
+*.wbpj.bak
+*.asv
+
+# --- Firmware & Software (C / C++ / ESP-IDF / STM32 / Python) ---
+build/
+.pio/
+cmake-build-*/
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+sdkconfig.old
+
+# --- IDEs e Sistema Operativo ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
